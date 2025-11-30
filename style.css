@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f62536; /* Dark Navy Background */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    width: 90%;
+    max-width: 700px; /* Limits width on large screens */
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+h1 span {
+    color: #f0f5f2; /* Green text */
+    border-bottom: 4px solid #019F55; /* Green Underline */
+    padding-bottom: 7px;
+}
+
+.display {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    color: #333;
+    width: 85%; /* Leaves room for the icon */
+}
+
+.display img {
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.display img:active {
+    transform: scale(0.9); /* Click effect */
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background: #019F55; /* Green Button */
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button i {
+    margin-right: 10px; /* Space between lightning icon and text */
+}
+
+button:hover {
+    background: #028548; /* Slightly darker green on hover */
+}

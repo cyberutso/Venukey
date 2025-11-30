@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venukey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Generate a <br> <span>Secure Password</span></h1>
+    
+    <div class="display">
+        <input type="text" id="password" placeholder="Password" readonly>
+        <img src="https://cdn-icons-png.flaticon.com/512/1621/1621635.png" alt="copy" onclick="copyPassword()">
+    </div>
+
+    <button onclick="createPassword()">
+        <i class="fa-solid fa-bolt"></i> Generate Password
+    </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
